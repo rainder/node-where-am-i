@@ -1,0 +1,27 @@
+{
+  "name": "@rainder/where-am-i",
+  "version": "0.0.1",
+  "description": "Detects the geolocation of a MAC computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mac",
+    "geolocation"
+  ],
+  "author": "Andrius Skerla",
+  "license": "ISC",
+  "dependencies": {
+    "geo-point": "^1.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainder/node-where-am-i.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rainder/node-where-am-i/issues"
+  },
+  "homepage": "https://github.com/rainder/node-where-am-i#readme"
+}
