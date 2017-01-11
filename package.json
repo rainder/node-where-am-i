@@ -1,14 +1,15 @@
 {
   "name": "@rainder/where-am-i",
   "version": "0.0.1",
-  "description": "Detects the geolocation of a MAC computer",
+  "description": "Detects the geolocation of a MAC computer using WiFi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "mac",
-    "geolocation"
+    "geolocation",
+    "wifi"
   ],
   "author": "Andrius Skerla",
   "license": "ISC",

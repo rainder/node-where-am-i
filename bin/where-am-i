@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+
+const whereAmI = require('./..');
+
+whereAmI.getLocation()
+  .then(r => {
+    console.log(JSON.stringify(r))
+  })
+  .catch(e => {
+    console.error(e);
+    process.exit(1);
+  });
